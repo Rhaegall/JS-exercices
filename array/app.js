@@ -26,7 +26,11 @@ console.log(array)
 /**exo 5 fin, rectificationen ajoutant la <meta> non incluse au début**/
 
 /**exo 6 début**/
-var array = ["Janvier", "Fevrier", "Mars", "Avril", "Mais", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"];
-console.log(array)
+for ( var i = 0; i < 12; i ++ ){
+	(console.log(i))
+}
 /**exo 6 fin**/
 
+/**exo 7 début**/
+array.push ('Banane');
+console.log(array)
