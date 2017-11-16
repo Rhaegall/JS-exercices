@@ -25,12 +25,34 @@ var array= ["Août"];
 console.log(array)
 /**exo 5 fin, rectificationen ajoutant la <meta> non incluse au début**/
 
-/**exo 6 début**/
+/**exo 6 début, copie de la correction**/
 for ( var i = 0; i < 12; i ++ ){
 	(console.log(i))
 }
 /**exo 6 fin**/
 
 /**exo 7 début**/
-array.push ('Banane');
+/** Je n'ai compris ni l'exercice ni la correction**/
+/**exo 7 fin**/
+
+/**exo 8 début**/
+array. push ("Courgette");
 console.log(array)
+/**exo 8 fin**/
+
+/**A partir d'ici je ne comprend pas le beug, et rien ne s'affiche sur la console**:
+
+/**exo 9 début**/
+array[4]. push ("Citron");
+console.log(array)
+/**exo 9 fin**/
+
+/**exo 10 début**/
+array. splice (1,1);  
+console.log(array)
+/**exo 10 fin**/
+
+/**exo 11 début**/
+array.splice(2,0, "Poire");
+console.log(array)
+/**exo 11 fin**/
